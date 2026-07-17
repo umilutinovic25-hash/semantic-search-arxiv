@@ -1,5 +1,7 @@
 # Semantic Search in Research Papers
 
+![demo](assets/demo.gif)
+
 Semantic search over **50,000 ArXiv machine-learning papers** using
 sentence-transformer embeddings and cosine similarity — finding papers by
 *meaning*, not keywords. Includes a side-by-side comparison against TF-IDF
