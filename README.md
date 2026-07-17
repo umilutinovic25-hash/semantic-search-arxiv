@@ -48,6 +48,7 @@ jupyter notebook notebooks/semantic_search.ipynb
 ## Project structure
 
 ```
+├── app.py                      # interactive demo: semantic vs keyword, more-like-this
 ├── notebooks/
 │   └── semantic_search.ipynb   # full analysis, executed with outputs
 ├── src/
