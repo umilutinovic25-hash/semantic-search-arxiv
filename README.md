@@ -20,6 +20,18 @@ visualization.
 - **Embedding-space map**: t-SNE + KMeans over the corpus reveals coherent
   research communities, auto-labeled by their most distinctive title terms.
 
+## Interactive demo
+
+```bash
+python app.py   # http://127.0.0.1:7862
+```
+
+Type a question in plain language and see, **side by side**, what semantic search
+finds versus what TF-IDF keyword search would have returned — with per-query
+latency and the overlap between the two result lists. A second tab gives
+"more like this": pick any paper and get its nearest neighbours in embedding
+space as an instant related-work list.
+
 ## Usage
 
 ```bash
